@@ -5,3 +5,8 @@ With the threat of atmospheric pollution on the rise in recent years, round-the-
 As compared to other commonly used models, NESNet performs relatively well in predicting the pattern of concentrations. The figure shown below compares the predictions by NESNet to predictions made with other models.
 
 ![image](https://user-images.githubusercontent.com/64698873/138562788-f038ad0c-07db-4ea0-8bfc-2d2c99c2089b.png)
+ 
+ The datasets used for this work are available in the following links
+ - NO<sub>2</sub>: https://www.kaggle.com/bibhash123/no2estimation
+ - SO<sub>2</sub>: https://www.kaggle.com/bibhash123/so2estimation
+ - O<sub>3</sub>: https://www.kaggle.com/bibhash123/o3estimation
