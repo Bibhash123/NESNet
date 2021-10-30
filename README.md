@@ -5,7 +5,25 @@ With the threat of atmospheric pollution on the rise in recent years, round-the-
 As compared to other commonly used models, NESNet performs relatively well in predicting the pattern of concentrations. The figure shown below compares the predictions by NESNet to predictions made with other models.
 
 ![image](https://user-images.githubusercontent.com/64698873/138562788-f038ad0c-07db-4ea0-8bfc-2d2c99c2089b.png)
+
+## Files In the Repository
+```
+./
++-- README.md
+|+--- Proposed Method
+|    +----------- NO2_Ireland_Dataset(Proposed).ipynb: Training of NESNet for NO2 dataset
+|    +----------- SO2_and_O3_Ireland.ipynb: Training of NESNet for O3 and SO2 dataset
+|+--- Experiments
+|    +----------- NO2_With_Altitude.ipynb: Exploration of model performance upon inclusion of altitude as another input
+|+--- Validation & Benchmarking
+|    +----------- NO2_Benchmarking.ipynb: Benchmarking of NESNet trained for NO2
+|    +----------- SO2_and_O3_Benchmarking.ipynb: Benchmarking of NESNet trained for SO2 and O3
+|    +----------- SO2_and_O3_validation_plots.ipynb: Experimentatal analysis and validation plots
+|+--- Models/N02
+|    +----------- model_0.hdf5-model_4.hdf5: weights for NESNET trained on NO2 datasets for 5 folds(model_0 =>model 1st fold)
+```
  
+ ## Datasets
  The datasets used for this work are available in the following links
  - NO<sub>2</sub>: https://www.kaggle.com/bibhash123/no2estimation
  - SO<sub>2</sub>: https://www.kaggle.com/bibhash123/so2estimation
