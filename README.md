@@ -7,21 +7,21 @@ As compared to other commonly used models, NESNet performs relatively well in pr
 ![image](https://user-images.githubusercontent.com/64698873/138562788-f038ad0c-07db-4ea0-8bfc-2d2c99c2089b.png)
 
 ## Files In the Repository
-```
+<pre>
 ./
 +-- README.md
-|+--- Proposed Method
-|    +----------- NO2_Ireland_Dataset(Proposed).ipynb: Training of NESNet for NO2 dataset
-|    +----------- SO2_and_O3_Ireland.ipynb: Training of NESNet for O3 and SO2 dataset
-|+--- Experiments
-|    +----------- NO2_With_Altitude.ipynb: Exploration of model performance upon inclusion of altitude as another input
-|+--- Validation & Benchmarking
-|    +----------- NO2_Benchmarking.ipynb: Benchmarking of NESNet trained for NO2
-|    +----------- SO2_and_O3_Benchmarking.ipynb: Benchmarking of NESNet trained for SO2 and O3
-|    +----------- SO2_and_O3_validation_plots.ipynb: Experimentatal analysis and validation plots
-|+--- Models/N02
-|    +----------- model_0.hdf5-model_4.hdf5: weights for NESNET trained on NO2 datasets for 5 folds(model_0 =>model 1st fold)
-```
+|+--- <b>Proposed Method</b>
+|    +----------- <i>NO2_Ireland_Dataset(Proposed).ipynb</i>: Training of NESNet for NO2 dataset
+|    +----------- <i>SO2_and_O3_Ireland.ipynb</i>: Training of NESNet for O3 and SO2 dataset
+|+--- <b>Experiments</b>
+|    +----------- <i>NO2_With_Altitude.ipynb</i>: Exploration of model performance upon inclusion of altitude as another input
+|+--- <b>Validation & Benchmarking</b>
+|    +----------- <i>NO2_Benchmarking.ipynb</i>: Benchmarking of NESNet trained for NO2
+|    +----------- <i>SO2_and_O3_Benchmarking.ipynb</i>: Benchmarking of NESNet trained for SO2 and O3
+|    +----------- <i>SO2_and_O3_validation_plots.ipynb</i>: Experimentatal analysis and validation plots
+|+--- <b>Models/N02</b>
+|    +----------- <i>model_0.hdf5-model_4.hdf5</i>: weights for NESNET trained on NO2 datasets for 5 folds(model_0 =>model 1st fold)
+</pre>
  
  ## Datasets
  The datasets used for this work are available in the following links
