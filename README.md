@@ -33,3 +33,4 @@ As compared to other commonly used models, NESNet performs relatively well in pr
  - NO<sub>2</sub>: https://www.kaggle.com/bibhash123/no2estimation
  - SO<sub>2</sub>: https://www.kaggle.com/bibhash123/so2estimation
  - O<sub>3</sub>: https://www.kaggle.com/bibhash123/o3estimation
+ - Experiment with altitude input: https://www.kaggle.com/datasets/bibhash123/ireland2021
